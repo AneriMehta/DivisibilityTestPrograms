@@ -7,21 +7,23 @@ function divisibleBy11(number){
 
         let numbers = number.split('');
         for(let i = 0; i < number.length; i++){
-            if(numbers[i] % 2 != 0){
+            let bin = numbers[i].toString(2);
+            if(bin[bin.length - 1] != 0){
                 impar = impar + numbers[i];
             }else{
                 par = par + numbers[i];
             }
         }
 
-        number = par- impar;
+        number = par - impar;
 
         if(number === 0){
             return true;
         }
     }
 
-    if(number % 11 === 0){
+    
+    if(number - Math.floor(number / 11) * 11 === 0){
         return true
     }
 
