@@ -21,7 +21,7 @@ git clone https://github.com/your-username/DivisibilityTestPrograms.git
 git checkout -b branch-name
 ```
 
-* Make your changes (choose from any task below)
+* Make your changes(Choose from the issues)
 * Commit and push
 
 ```markdown
