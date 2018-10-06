@@ -1,4 +1,7 @@
-function testFor3(value){
-  // Will evaluate to true if the variable is divisible by 3
-  return Number.isInteger(value / 3);
-};
+var n = Math.floor((Math.random() * 1000) + 1);
+if (n) {
+  var output = "";
+  if (n % 3 == 0)
+    output += "Divisible by 3";
+  prompt(output || n);
+}
