@@ -1,6 +1,9 @@
 # DivisibilityTestPrograms
 Programs that can check whether the input is divisible by a certain number without using MODULO Operator.
 
+## Idea
+* To exploit the Divisibility rules for different numbers!!
+
 ## Contributing to this project
 * There are folders for each language
 * Add your program in the related folder as language/TestForNumber.extension
