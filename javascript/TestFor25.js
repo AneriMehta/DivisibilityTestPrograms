@@ -15,4 +15,4 @@ function divisibleBy25(number){
     return false;
 }
 
-divisibleBy25(7650419);
+divisibleBy25(2367750); // return true.
