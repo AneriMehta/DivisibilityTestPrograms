@@ -24,9 +24,7 @@ def check_divisibility(Number):
             print("\n NOT Divisible by 9")
     else:
         check_divisibility(Sum)
-    
-    
-
+        
 if __name__ == "__main__":
     Number = int(input('Input to test for divisibility by 9: '))
     check_divisibility(Number)
