@@ -4,7 +4,7 @@
 import java.io.*;
 import java.util.*;
 
-class DivisibleByThree
+class TestFor3
 {
     public static void main(String args[])
     {
