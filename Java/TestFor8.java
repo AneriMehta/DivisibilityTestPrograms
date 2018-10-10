@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class DivisibleByEight
+class TestFor8
 {
     public static void main(String args[])
     {
@@ -14,7 +14,7 @@ class DivisibleByEight
         for(int i=1;i<=temp;i++)
         {
             num=num+8;
-        }   
+        }
         if(num == n2)
         {
             System.out.println(n2 +" is divisible by 8!!");
