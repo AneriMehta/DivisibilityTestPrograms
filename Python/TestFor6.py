@@ -5,7 +5,7 @@ def Test_for_2(number):
         return False
 
 def Test_for_3(number):
-    if sum([int(i) for i in str(number)]) in [i for i in range(3, 100, 3)]:
+    if sum([int(i) for i in str(number)]) in [i for i in range(3, 162, 3)]:
         return True
     else:
         return False
