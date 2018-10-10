@@ -1,4 +1,4 @@
-// This file 'IsDivisibleby3.cpp' details a C++17 program to find whether a 
+// This file 'TestFor3.cpp' details a C++17 program to find whether a 
 //  user-input number is divisible by 3, without the use of standard modulo
 //  operator.
 
