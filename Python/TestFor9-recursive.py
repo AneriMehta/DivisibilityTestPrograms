@@ -18,7 +18,7 @@ def isDivisibleBy9(n):
 # Driver code 
 
 # Let us print all multiples 
-# of 9 from 0 to 1000
+# of 9 from 1 to 100
 # using above method 
 
 for i in range(100):
