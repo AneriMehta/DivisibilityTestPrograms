@@ -1,0 +1,27 @@
+* This Program is for Divisiblity checking without modulo operator in SAP ABAP language.
+* To Execute this Report or Program you have to import this in SAP Logon Software using Report.
+
+REPORT  zgith5.
+
+DATA : mul TYPE i,
+       div TYPE i,
+       ans TYPE i.
+
+PARAMETERS: num TYPE i,
+            divisor TYPE i.
+
+PERFORM reminder USING num divisor.
+
+FORM reminder  USING    p_num
+                        p_divisor.
+
+  div = p_num / p_divisor.
+  mul = div * p_divisor.
+  ans = p_num - mul.
+
+  IF ans EQ 0.
+    WRITE :  p_num ,' is divided by ' , p_divisor.
+  ELSE.
+    WRITE : p_num ,' is not divided by ' , p_divisor.
+  ENDIF.
+ENDFORM.
