@@ -1,17 +1,26 @@
-#!/usr/bin/python3
-'''
-Divisibility checking without modulo operator.
-'''
-
-def reminder(num,divisor):
+def reminder(num, divisor):
     return (num - divisor * (num // divisor))
-num = int(input("Enter number for divisibility test: "))
-divisor = int(input("give any number: "))
 
-result = reminder(num,divisor)
-number = str(num)
-if result == 0:
-    print ("This number is divided by "+number)
-else:
-    print ("Not divided by "+number)
 
+while True:
+
+    print("(enter 'q' to quit anytime)")
+
+    num = input("Enter number for divisibility test: ")
+    if num == 'q':
+        break
+    else:
+        num = int(num)
+
+    divisor = input("give divisor to divide the number: ")
+    if divisor == 'q':
+        break
+    else:
+        divisor = int(divisor)
+
+    result = reminder(num, divisor)
+
+    if result == 0:
+        print("The number {} is divisible by {}\n".format(num, divisor))
+    else:
+        print("The number {} is not divisible by {}\n".format(num, divisor))
