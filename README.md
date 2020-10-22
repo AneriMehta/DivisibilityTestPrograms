@@ -34,3 +34,12 @@ git push origin branch-name
 ```
 
 * Create a new pull request from your forked repository (Click the `New Pull Request` button located at the top of your repo)
+
+
+def getRemainder(num, divisor): 
+    return (num - divisor * (num // divisor))  
+num = 100
+divisor = 7
+print(getRemainder(num, divisor)) 
+
+  
